@@ -1,5 +1,5 @@
 {
-  "name": "m3u8stream",
+  "name": "@mtripg6666tdr/m3u8stream",
   "description": "Reads segments from a m3u8 or dash playlist into a consumable stream.",
   "keywords": [
     "m3u8",
