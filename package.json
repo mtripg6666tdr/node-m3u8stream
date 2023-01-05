@@ -10,10 +10,14 @@
     "segments",
     "stream"
   ],
-  "version": "0.8.3",
+  "version": "0.8.6",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fent/node-m3u8stream.git"
+    "url": "git+https://github.com/mtripg6666tdr/node-m3u8stream.git"
+  },
+  "readme": "https://github.com/mtripg6666tdr/node-m3u8stream#readme",
+  "bugs": {
+    "url": "https://github.com/mtripg6666tdr/node-m3u8stream/issues"
   },
   "author": "fent <fentbox@gmail.com> (https://github.com/fent)",
   "main": "./dist/index.js",
