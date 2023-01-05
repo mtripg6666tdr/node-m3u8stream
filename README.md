@@ -1,3 +1,16 @@
+# @mtripg6666tdr/m3u8stream
+This is a fork version of [node-m3u8stream](https://github.com/fent/node-m3u8stream).  
+The differences from the original are:
+- You can update `m3u8stream` url by using `m3u8stream.Stream.updatePlaylist(url)` method.
+
+If you want to use this fork version via npm, install by:
+```sh
+npm i @mtripg6666tdr/m3u8stream
+```
+
+Below is the original README.
+
+---
 # node-m3u8stream
 
 Reads segments from a [m3u8 playlist][1] or [DASH MPD file][2] into a consumable stream.
