@@ -28,6 +28,7 @@ namespace m3u8stream {
     end: () => this;
     on(event: 'progress', listener: (progress: Progress, totalSegments: number, downloadedBytes: number) => void): this;
     on(event: string | symbol, listener: (...args: any) => void): this;
+    updatePlaylist(url:string): void;
   }
 
   export interface m3u8streamFunc {
@@ -214,6 +215,8 @@ let m3u8stream = ((playlistURL: string, options: m3u8stream.Options = {}): m3u8s
     PassThrough.prototype.end.call(stream, null);
     return stream;
   };
+
+  stream.updatePlaylist = (url:string) => playlistURL = url;
 
   return stream;
 }) as m3u8stream.m3u8streamFunc;
